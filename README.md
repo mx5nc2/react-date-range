@@ -7,6 +7,9 @@
 
 A date library agnostic React component for choosing dates and date ranges. Uses [date-fns](http://date-fns.org/) for date operations.
 
+# Notice ⚠️
+This project is currently unmaintained because the original maintainers are busy with other things. It should be pretty stable in it's current state but we won't be updating it in the foreseeable future. **If you are willing to maintain it, please fork and open a pr adding your fork's link to this readme.**
+
 ### Why should you use `react-date-range`?
 
 - Stateless date operations
@@ -177,7 +180,7 @@ dayContentRenderer                   | Function  | null             | Function t
 #### Infinite Scrolled Mode
 
 To enable infinite scroll set `scroll={{enabled: true}}` basically. Infinite scroll feature is affected by `direction`(rendering direction for months) and `months`(for rendered months count) props directly.
-If you prefer, you can overwrite calendar sizes with `calendarWidth`/`calendarHeight` or each month's height/withs with `monthWidth`/`monthHeight`/`longMonthHeight` at `scroll` prop.
+If you prefer, you can overwrite calendar sizes with `calendarWidth`/`calendarHeight` or each month's height/width with `monthWidth`/`monthHeight`/`longMonthHeight` at `scroll` prop.
 
 ```js
   // shape of scroll prop
